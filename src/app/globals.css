@@ -33,6 +33,10 @@ main {
   color: white;
   min-height: 100vh;
 }
+main div:first-child {
+  background: url('./assets/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration_35913-2335\ 2.svg');
+  background-position: center;
+}
 
 a {
   color: inherit;
@@ -40,7 +44,9 @@ a {
 }
 
 .hero {
-  background: url('./assets/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration_35913-2335\ 2.svg');
+  display: grid;
+  place-items: center;
+  padding: 2em 3em;
 }
 
 header {
@@ -93,4 +99,20 @@ header div button {
   background: url('./assets/button-blue.svg');
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.main-heading {
+  text-align: center;
+  line-height: 1.5em;
+  font-family: 'D3 Euronism';
+  letter-spacing: 3px;
+}
+.main-heading span{
+  font-size: 1.4em;
+  color: #ef2e65;
+}
+
+.hero p {
+  max-width: 50%;
+  text-align: center;
 }
