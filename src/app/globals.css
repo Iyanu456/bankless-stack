@@ -33,7 +33,7 @@ main {
   color: white;
   min-height: 100vh;
 }
-main div:first-child {
+.page-container {
   background: url('./assets/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration_35913-2335\ 2.svg');
   background-position: center;
 }
@@ -113,6 +113,28 @@ header div button {
 }
 
 .hero p {
-  max-width: 50%;
   text-align: center;
+  padding-bottom: 4em;
+}
+
+.btn-normal {
+  font-family: 'D3 Euronism';
+  color: white;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: auto 0 auto auto;
+  border: none;
+  padding: 1.2em 2em;
+  background: url('./assets/button-blue.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-grp {
+  background: url('./assets//card-outline.svg');
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100px;
+  padding: 3em;
 }
