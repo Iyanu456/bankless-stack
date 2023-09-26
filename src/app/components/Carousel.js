@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import "./styles/carousel.css"
 import Image from 'next/image';
-import Next from "../app/assets/next.svg"
-import Prev from "../app/assets/before.svg"
+import Next from "../assets/next.svg"
+import Prev from "../assets/before.svg"
 
 const Carousel = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
