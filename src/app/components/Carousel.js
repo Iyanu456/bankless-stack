@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Next from "../assets/next.svg"
 import Prev from "../assets/before.svg"
 
-const Carousel = ({ items }) => {
+function Carousel ({ items }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
