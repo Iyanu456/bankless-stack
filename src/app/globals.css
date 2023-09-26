@@ -211,3 +211,29 @@ header div button {
   cursor: pointer; 
   padding-bottom: 2em;
 }
+
+@media screen and (max-width: 920px) {
+  header > div {
+    display: none;
+  }
+  
+  header > div > ul {
+    display: none;
+  }
+  .projects-grp > img {
+    width: 90%;
+    cursor: pointer;
+  }
+  .mission-grp > img {
+    width: 100%;
+  }
+
+  .talent-grp > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 300px;
+  }
+  
+}
