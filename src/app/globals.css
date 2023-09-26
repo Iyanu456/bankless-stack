@@ -26,16 +26,22 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   
+  
 }
 
 main {
-  background-color: #1e1e1e;
+  background-color: #080808;
   color: white;
   min-height: 100vh;
+  font-family: "D3 Euronism";
+  letter-spacing: 5px;
+  font-size: 0.9em
 }
 .page-container {
   background: url('./assets/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration_35913-2335\ 2.svg');
-  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire container */
+	background-position: center center;
 }
 
 a {
@@ -137,4 +143,71 @@ header div button {
   height: 200px;
   width: 100px;
   padding: 3em;
+}
+
+.mission-grp {
+  display: grid;
+  place-items: center;
+  padding: 2em;
+}
+
+.mission-grp > img {
+  margin-bottom: 4em;
+  width: 75%;
+}
+
+.projects-grp {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  place-items: center;
+  padding: 2em;
+}
+
+.projects-grp > img {
+  width: 70%;
+  cursor: pointer;
+}
+
+.projects-grp > img:last-child {
+  width: 12%;
+  cursor: pointer;
+}
+
+.projects-grp > img:hover {
+  scale: 1.06;
+  transition: 200ms ease;
+}
+
+.talent-grp {
+  
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding-top: 2.5em;
+}
+.talent-grp > div {
+  padding-top: 2em;
+  width: fit-content;
+  display: grid;
+  gap: 3em;
+  place-items: center;
+  grid-template-columns: 50% 50%;
+  cursor: pointer;
+}
+.talent-grp > div > div {
+  padding-bottom: 3em;
+}
+.talent-grp > div > div > img {
+  width: 250px;
+}
+
+.talent-grp > div > div > img:hover {
+  scale: 1.03;
+  transition: 80ms ease-in;
+}
+.talent-grp > img {
+  width: 12%;
+  cursor: pointer; 
+  padding-bottom: 2em;
 }
