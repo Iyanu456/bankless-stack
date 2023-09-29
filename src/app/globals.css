@@ -146,15 +146,15 @@ header div button {
 }
 
 .mission-grp {
-  display: grid;
-  place-items: center;
-  padding: 2em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 1em;
+  padding: 3em;
 }
 
-.mission-grp > img {
-  margin-bottom: 4em;
-  width: 75%;
-}
 
 .projects-grp {
   display: flex;
@@ -213,6 +213,9 @@ header div button {
 }
 
 @media screen and (max-width: 920px) {
+  header {
+    padding: 2.5em 2em;
+  }
   header > div {
     display: none;
   }
